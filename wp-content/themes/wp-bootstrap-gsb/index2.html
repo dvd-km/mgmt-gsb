@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta http-equiv="" content="0; url=<?=$index?>" />
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="stylesheet" type="text/css" media="screen" href="./common/PlainLight-Regular.css" />
+    <link rel="icon" href="../../../../favicon.ico">
+    <title>Minkyoung Kim</title>
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <!-- Flickity CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./common/styles.css">
+    <!-- Vue Library -->
+    <script src="https://unpkg.com/vue/dist/vue.js"></script>
+    <link rel="apple-touch-icon-precomposed" sizes="57x57" href="./img/favicon/faapple-touch-icon-57x57.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="./img/favicon/apple-touch-icon-114x114.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="./img/favicon/apple-touch-icon-72x72.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="./img/favicon/apple-touch-icon-144x144.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="60x60" href="./img/favicon/apple-touch-icon-60x60.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="120x120" href="./img/favicon/apple-touch-icon-120x120.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="76x76" href="./img/favicon/apple-touch-icon-76x76.png" />
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="./img/favicon/apple-touch-icon-152x152.png" />
+    <link rel="icon" type="image/png" href="./img/favicon/favicon-196x196.png" sizes="196x196" />
+    <link rel="icon" type="image/png" href="./img/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/png" href="./img/favicon/favicon-32x32.png" sizes="32x32" />
+    <link rel="icon" type="image/png" href="./img/favicon/favicon-16x16.png" sizes="16x16" />
+    <link rel="icon" type="image/png" href="./img/favicon/favicon-128.png" sizes="128x128" />
+    <meta name="application-name" content="&nbsp;"/>
+    <meta name="msapplication-TileColor" content="#FFFFFF" />
+    <meta name="msapplication-TileImage" content="./img/favicon/mstile-144x144.png" />
+    <meta name="msapplication-square70x70logo" content="./img/favicon/mstile-70x70.png" />
+    <meta name="msapplication-square150x150logo" content="./img/favicon/mstile-150x150.png" />
+    <meta name="msapplication-wide310x150logo" content="./img/favicon/mstile-310x150.png" />
+    <meta name="msapplication-square310x310logo" content="./img/favicon/mstile-310x310.png" />
+</head>
+<body>
+    <header class="sticky">
+        <div id="detail-heading" class="w-100"></div>
+        <div class="d-none pt-1 pl-0 description" id="more-details">
+            <div class="small ml-0 pb-4">
+                <div id="text-area-1"></div>
+            </div>
+    </header>
+    <!--flickity-->
+    <main role="main">
+       <section class="about">
+            <h3>Minkyoung Kim is a designer and artist based in New York, developing visual systems with a focus on repetition and evolution.</h3>
+        </section> 
+        <section class="mainslide mb-3" id="changeText">
+            <div class="matrix-carousel carousel mt-0" data-flickity='{ "wrapAround": true,"autoPlay": 3000, "prevNextButtons": true, "pageDots": false,  "pauseAutoPlayOnHover": true, "fullscreen":false }'>
+                <div class="carousel-cell">
+                    <figure>
+                        <img class="carousel-cell-image" src="./img/apc-installation.jpg" alt="tulip" />
+                        <figcaption class="figure-caption mt-1">All Possible Chairs; Digital print, frame size 9.7 × 11.2 × 3 in each; 2015 </figcaption>
+                    </figure>
+                </div>
+                <div class="carousel-cell text-center" style="position: absolute; background: linear-gradient(to bottom right, #dcdcdc, #e4e4e4);  left: 100%;">
+                    <figure style="margin:auto;">
+                         <video class="carousel-cell-image" style="position:relative; transform: translateY(5%); width:85%; min-width:85%; box-shadow: 10px 10px 30px #bdbdbd;" id="vid1" autoplay loop muted>
+                                <source src="./img/risdm-web.mp4" type="video/mp4">
+                            </video>
+                        <figcaption class="figure-caption text-left mt-1">RISD Museum Digital Publication; Website, with Andrew LeClair, Title type design by June Shin; 2017</figcaption>
+                    </figure>
+                </div>
+                <div class="carousel-cell">
+                    <figure>
+                        <img class="carousel-cell-image" src="./img/5050-5.jpg" alt="raspberries" />
+                        <figcaption class="figure-caption mt-1">50/50:artist/context; Poster, 20 × 30 in each, with Chloe Lee; 2013</figcaption>
+                    </figure>
+                </div>
+                 <div class="carousel-cell">
+                    <figure>
+                        <img class="carousel-cell-image" src="./img/apc-book-detail.jpg" alt="raspberries" />
+                        <figcaption class="figure-caption mt-1">All Possible Chairs; Booklet, page size 8.5 × 10 in, saddle-stitch, 48p; 2015 </figcaption>
+                    </figure>
+                </div>
+                    <div class="carousel-cell text-center" style="position: absolute; background-color:black;">
+                        <figure style="margin:auto;">
+                            <div>
+                                <video width="80%" class="carousel-cell-image" style="position:relative; background-color:black;" id="vid3" autoplay loop muted>
+                                    <source src="./img/mc-logo.mp4" type="video/mp4">
+                                </video>
+                                <figcaption class="figure-caption text-left mt-1">Midnight Commercial; Identity and website, with Studio TheGreenEyl; 2017</figcaption>
+                            </div>
+                        </figure>
+                </div>
+                <div class="carousel-cell">
+                    <figure>
+                        <img class="carousel-cell-image" src="./img/cant-installation.jpg" alt="raspberries" />
+                        <figcaption class="figure-caption mt-1">You Cannot Go back; Drawing program, with Barron Webster; Installation view at Arthack: Master<span class="strike">Slave</span>; 2014 </figcaption>
+                    </figure>
+                </div>
+                <div class="carousel-cell">
+                    <figure>
+                        <div>
+                            <video class="carousel-cell-image carousel-cell-video" style="min-width:100%;" id="vid2" autoplay loop muted>
+                                <source src="./img/apc-web-4chairs.mp4" type="video/mp4">
+                            </video>
+                        </div>
+                        <figcaption class="figure-caption mt-1">All Posssible Chairs; Website, 2015</figcaption>
+                    </figure>
+                </div>
+            </div>
+            <div class="carousel-status" id="carousel-status"></div>
+        </section>
+        <div class="pl-0" id="profile-details">
+                <div class="col-6 ml-0 pr-4 pb-4">
+                    <h5>Online Works</h5>
+                    <a href="http://allpossiblechairs.com/" target="_blank">All Possible Chairs</a>, 
+                    <a href="https://careers.americanexpress.com/" target="_blank" rel="noopener">AMEX Global Careers</a>, 
+                    <a href="https://global.americanexpress.com/rewards/landing" target="_blank" rel="noopener">AMEX Membership Rewards</a>, 
+                    <a href="https://itunes.apple.com/kr/app/designersmap/id1271265992?l=en&mt=8" target="_blank">Designer's Map<span class="small">(iOS)</span></a>, 
+                    <a href="https://play.google.com/store/apps/details?id=com.timnet.materialseoul" target="_blank"> Designer's Map<span class="small">(Android)</span></a>, 
+                    <a href="http://midnightcommercial.com" target="_blank">Midnight Commercial</a>, 
+                    <a href="http://www.legacycitydesign.org/" target="_blank">Legacy City Design</a>, 
+                    <a href="https://posterhouse.org/" target="_blank">Poster House</a>, 
+                    <a href="https://publications.risdmuseum.org/altered-states/" target="_blank">RISD Museum Digital Publication</a>, 
+                    <a href="https://vimeo.com/132759733" target="_blank">Repetition and Difference</a>, 
+                    <a href="http://snoopy.gallery" target="_blank">Snoopy.gif</a>,
+                    <a href="http://someoneiswatchingyou.net/" target="_blank">Someone is Watching You. Now. in This Lobby<span class="small">(iOS, Safari required)</span></a>, 
+                    <a href="http://someoneiswatchingyou.info" target="_blank">Someone is Watching You. Now. in This Lobby<span class="small">(Web)</span></a>,
+                    <a href="http://supersurfaces.tk" target="_blank">SuperSurfaces</a>.
+                    <ul class="note line-height-base pt-2">
+                        <li>Some works were made as a collaboration.</li>
+                        <li>Currently available for freelance projects — Please email for a PDF portfolio.</li>
+                    </ul>
+                </div>
+                <div class="col-3 pr-4 pb-4">
+                    <ul class="indent-list">  
+                        <li>Selected Exhibitions</li>
+                        <li>2018, FAVORITEN: the Festival of Independent Performing Arts NRW; Dortmund</li>  
+                        <li>2018, SuperSurfaces; In the Paper, Seoul</li>  
+                        <li>2016, All Possible Chairs; Twoffice, Seoul</li>
+                        <li>2014, Commerce: The Greens, WaterWheel, and Bosco Mall; Proteus Gallery, Brooklyn</li>
+                        <li>2014, Art Hack Day Providence Master<span class="strike">Slave</span>; Expose Gallery, Providence</li>
+                        <li>2013, 50/50:artist/context; Gelman Gallery, Providence</li>
+                        <li>2013, Anthology 2; Grandoff Centre, Providence</li>
+                        <li>2011, Keep Your Shoulders and Waist Strong: Instructions for Gesture; First Draft Gallery, Sydney</li>
+                    </ul>
+                        <li>&nbsp;</li>
+                       <li>Teaching⋅Speaking</li> 
+                    <ul>
+                        <li>Design Incubation: Colloquium 1.5, International Incheon Women Artists' Biennale, Parsons The New School, Rhode Island School of Design, Rutgers University, SUNY Old Westbury, University of Connecticut, Wesleyan University, Wumin Art Center, Yale University</li>
+                    </ul>
+                </div>
+                <div class="col-3 pb-4">
+                    Contact
+                    <ul>
+                        <li><a href="mailto:mineh.kim@gmail.com">mineh.kim@gmail.com</a></li>
+                        <li>&nbsp;</li>
+                    </ul>
+                    Previously at
+                    <ul>
+                        <li><a href="http://altpool.org/_v3/en/main/main_new.asp" target="_blank" rel="noopener">Art Space Pool</a>, <a href="http://benjamincritton.com/" target="_blank" rel="noopener">B.C.A.D</a>, <a href="http://familiar.studio" target="_blank">Familiar</a>, <a href="http://linkedbyair.net" target="_blank" rel="noopener">Linked by Air</a>, <a href="http://www.risdcodestudio.org/" target="_blank" rel="noopener">RISD Code Studio</a>, <a href="http://siegelgale.com" target="_blank" rel="noopener">Siegel + Gale</a></li>
+                        <li>&nbsp;</li>
+                    </ul>
+                    Elsewhere
+                    <ul>
+                    <li><a href="https://twitter.com/mkimkimkimkimk" target="_blank" rel="noopener">@mkimkimkimkimk(TW)</a>, <a href="https://instagram.com/mkimkimkimkimk" target="_blank" rel="noopener">@mkimkimkimkimk(IG)</a>, <a href="http://kimchangpractice.com/index_e.html" target="_blank" rel="noopener">KimChangPractice!!</a>, <a href="https://www.are.na/minkyoung-kim/repetition" target="_blank" rel="noopener">Repetition</a>, <a href="http://minkyoungkim.com/teaching" target="_blank" rel="noopener">Teaching</a>, <a href="https://www.youtube.com/watch?v=wAL0TZpmW7s" target="_blank" rel="noopener">Versions (Lecture)</a>, <a href="http://www.lulu.com/shop/minkyoung-kim/versions-framing-iterating-serializing/paperback/product-22188912.html" target="_blank" rel="noopener">Versions (Publication)</a></li>
+                    <li>&nbsp;</li>
+                </ul>
+                </div>
+                <div class="col-xl-auto pt-4 pb-3"><span class="col-3" style="max-width:100%;">© 2019 Minkyoung Kim; Last update 2018 July.</span></div>
+        </div>
+    </main>
+    <!-- Bootstrap core JavaScript================================================== -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <!-- Flickity Library -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- LazyLoad -->
+    <script src="./common/lazyload.js"></script>
+    <!-- Scrollama Library -->
+    <script src='https://unpkg.com/intersection-observer'></script>
+    <script src='https://unpkg.com/scrollama'></script>
+    <!-- Smooth Scroll Library -->
+    <script src="./common/smooth-scroll.js"></script>
+    <!-- Custom Library -->
+    <script src="./common/scripts.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-121161253-1"></script>
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-121161253-1');
+    </script>
+</body>
+</html>
